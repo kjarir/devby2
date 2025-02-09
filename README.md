@@ -2,7 +2,7 @@
 
 Welcome to **DevByTwo** – where innovation meets creativity! We specialize in **digital transformation, sleek web experiences, and cutting-edge design solutions.** 🚀  
 
-🌐 **Website:** [devbytwo.com](https://devby2.com)  
+🌐 **Website:** [devbytwo.com](https://devby2.info)  
 📷 **Instagram:** [@devbytwo](https://instagram.com/devbytwo)  
 
 ## 🎨 𝘼 𝘽𝙡𝙚𝙣𝙙 𝙊𝙛 𝘼𝙧𝙩 & 𝘾𝙤𝙙𝙚  
