@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>About - Dev By 2</title>
+    <link rel="stylesheet" href="about.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.63/build/spline-viewer.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="index.html" class="logo">
+                <span></span>
+            </a>
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="home" class="spline-container">
+        <spline-viewer url="https://prod.spline.design/nNNcn-BOgVzLxcfL/scene.splinecode" 
+            zoom="0" 
+            disable-zoom="true" 
+            loading-anim="true" 
+            events-target="none"
+            mouse-target="none"
+            touch-target="none"
+            disable-interaction="true"></spline-viewer>
+    </div>
+
+    <main class="content">
+        <section id="about" class="about">
+            <div class="about-content">
+                <div class="about-info" data-aos="fade-right">
+                    <h2>Who Are We?</h2>
+                    <p>We are a dynamic duo of developers passionate about crafting exceptional digital experiences. With our combined expertise in full-stack development and UI/UX design, we transform ideas into powerful, user-friendly solutions.</p>
+                    <div class="cta-button">
+                        <a href="tel:+919167276750" class="call-button">
+                            <i class="fas fa-phone"></i>
+                            Call Us
+                        </a>
+                    </div>
+                </div>
+                <div class="about-images" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1470&auto=format&fit=crop" alt="Team Workspace" class="workspace-image">
+                    <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=1470&auto=format&fit=crop" alt="Development Process" class="code-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="founders" class="founders">
+            <div class="founders-content">
+                <div class="founders-images" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1470&auto=format&fit=crop" alt="Workspace Image 1" class="workspace-image">
+                    <img src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=1470&auto=format&fit=crop" alt="Workspace Image 2" class="code-image">
+                </div>
+                <div class="founders-info" data-aos="fade-left">
+                    <h2>Meet the Founders</h2>
+                    <p>Sahil Shaikh and Mohd Jarir bring diverse skills and experience, ensuring top-notch service and client satisfaction in every project we undertake.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>We are a dynamic duo dedicated to creating exceptional digital experiences through innovative web solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-phone"></i> +91 91672 76750</p>
+                    <p><i class="fas fa-envelope"></i> devby2.info@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dev By 2. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+    </script>
+</body>
+</html>
